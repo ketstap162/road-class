@@ -86,6 +86,7 @@ def test_roads_compare(first_len, second_len):
     assert (road_1 <= road_2) is (first_len <= second_len)
     assert (road_1 != road_2) is (first_len != second_len)
 
+
 @pytest.mark.parametrize(
     "other",
     [
